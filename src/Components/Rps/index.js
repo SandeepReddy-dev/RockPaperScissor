@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import "./index.css";
 
 const choices = [
-  { id: "rock", icon: "/images/rock.png", color: "bg-red-500" },
-  { id: "paper", icon: "/images/paper.png", color: "bg-blue-500" },
-  { id: "scissors", icon: "/images/Scissor.png", color: "bg-yellow-500" },
+  { id: "rock", icon: "https://i.pinimg.com/474x/3a/9f/09/3a9f099658f1851f1c0731ed6b013be7.jpg", color: "bg-red-500" },
+  { id: "paper", icon: "https://i.pinimg.com/736x/79/8e/1e/798e1e6a466be424e16b7681619615d2.jpg", color: "bg-blue-500" },
+  { id: "scissors", icon: "https://i.pinimg.com/736x/08/c3/a4/08c3a44ea9858d473054d51e6b53330d.jpg", color: "bg-yellow-500" },
 ];
 
 const RockPaperScissors = () => {
@@ -62,12 +62,12 @@ const RockPaperScissors = () => {
 
         <div className="users-c">
             <div className="user">
-            <img src="/images/jerry.png" alt="user" className="image" />
+            <img src="https://i.pinimg.com/474x/aa/b7/60/aab760d1d4e3fcbcdfa63018ce668d18.jpg" alt="user" className="image" />
             <h2>YOU</h2>
             </div>
             <h1>VS</h1>
             <div className="user">
-            <img src="/images/tom.png" alt="user" className="image" />
+            <img src="https://i.pinimg.com/474x/9f/65/97/9f65971f0d712d40eeb905ab83c1c845.jpg" alt="user" className="image" />
             <h2>TOM</h2>
             </div>
         </div>
