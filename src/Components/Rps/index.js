@@ -82,6 +82,7 @@ const RockPaperScissors = () => {
       <div className="game-area">
         {gameState === "choosing" ? (
           <div className="choices-grid">
+         <h3>Choose your move<h3>
             {choices.map((choice) => (
               <ChoiceButton
                 key={choice.id}
